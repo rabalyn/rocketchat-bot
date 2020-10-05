@@ -1,14 +1,15 @@
 {
-  "name": "chatbot.rocket.xn--bersprung",
+  "name": "rocketchat-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple Rocket.Chat bot",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "@rabalyn",
+  "license": "MIT",
   "dependencies": {
     "@rocket.chat/sdk": "^0.2.9-2",
     "dotenv": "^8.2.0"
